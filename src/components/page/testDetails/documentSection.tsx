@@ -3,7 +3,6 @@ import GraySection from "./grayPortion";
 import { Download, File, Plus, Trash } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
-import { config } from "@/config/env-config";
 import { useRef } from "react";
 import toast from "react-hot-toast";
 
@@ -20,7 +19,7 @@ const DocumentSection = ({ test }) => {
   // handle file downlaod
   const handleDownload = async (filePath: string, fileName: string) => {
     try {
-      const response = await fetch(`${config.baseURL}${filePath}`, {
+      const response = await fetch(`${filePath}`, {
         method: "GET",
       });
 

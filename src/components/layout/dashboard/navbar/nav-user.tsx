@@ -18,7 +18,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import Link from "next/link";
-import { config } from "@/config/env-config";
 import { useAuthContext } from "@/contexts/AuthContext";
 
 export function NavUser({
@@ -70,7 +69,7 @@ export function NavUser({
               <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
                 <Avatar className="h-8 w-8 rounded-lg">
                   <AvatarImage
-                    src={`${config.baseURL}${user?.image}`}
+                    src={`${user?.image}`}
                     alt={user?.name}
                   />
                   <AvatarFallback className="rounded-lg">CN</AvatarFallback>

@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { config } from "@/config/env-config";
 import Image from "next/image";
 
 const UserCard = ({ user }: { user?: any }) => {
@@ -10,11 +9,7 @@ const UserCard = ({ user }: { user?: any }) => {
     <div className="flex flex-col xl:flex-row gap-10">
       <figure className="p-2 col-span-1">
         <Image
-          src={
-            user.image.includes("i.ibb.co")
-              ? user.image
-              : `${config.baseURL}${user.image}`
-          }
+          src={user.image.includes("i.ibb.co") ? user.image : `${user.image}`}
           alt="user image"
           width={200}
           height={200}

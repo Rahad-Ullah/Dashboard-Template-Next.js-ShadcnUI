@@ -1,10 +1,18 @@
-# Mammoth
-
-### CRM for Medical Diagnostic Centre
+# Dashboard Template for Next.js with Shadcn UI
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+```bash
+git clone https://github.com/Rahad-Ullah/Dashboard-Template-Next.js-ShadcnUI.git
+```
+
+Second, install packages:
+```bash
+npm install
+```
+
+Finally, run the development server:
 
 ```bash
 npm run dev
@@ -12,13 +20,15 @@ npm run dev
 yarn dev
 ```
 
-## Update the `.env.local` file by your actual environment variables
+### Create the `.env.local` file and set environment variables following these:
 
-```json
+```javascript
 SERVER_HOST="10.0.70.50"
 SERVER_URL="http://10.0.70.50:5003"
 BASE_URL="http://10.0.70.50:5003/api/v1"
 ```
+
+## Protect your routes by middleware after backend integration
 
 ```javascript
 import type { NextRequest } from "next/server";
