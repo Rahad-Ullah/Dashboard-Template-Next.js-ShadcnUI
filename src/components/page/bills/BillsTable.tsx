@@ -25,14 +25,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { capitalizeSentence } from "@/utils/capitalizeSentence";
-import DashboardTable from "@/components/table";
-import TablePagination from "@/components/table-pagination";
 import columns from "@/components/tableColumns/billTableColumn";
 import Image from "next/image";
 import { IBill } from "@/types/bill";
 import { useUpdateMultiSearchParams } from "@/hooks/useUpdateMultiSearchParams";
 import { exportToExcel } from "@/utils/exportToExcel";
 import exportToPDF from "@/utils/exportToPdf";
+import DashboardTable from "@/components/shared/table";
+import TablePagination from "@/components/shared/table-pagination";
 
 // Extract unique roles from data
 const paymentStatus = ["Paid", "Unpaid"];
