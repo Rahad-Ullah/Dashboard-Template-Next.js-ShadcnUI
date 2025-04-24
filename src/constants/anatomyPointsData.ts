@@ -1,0 +1,56 @@
+export const anatomyPointsData = [
+  {
+    sample_area: "Proximal Arm (PA)",
+    sample_side: "Left",
+    x: 105,
+    y: 150,
+  },
+  {
+    sample_area: "Proximal Arm (PA)",
+    sample_side: "Right",
+    x: 235,
+    y: 150,
+  },
+  {
+    sample_area: "Distal Arm (DA)",
+    sample_side: "Left",
+    x: 60,
+    y: 210,
+  },
+  {
+    sample_area: "Distal Arm (DA)",
+    sample_side: "Right",
+    x: 275,
+    y: 210,
+  },
+  {
+    sample_area: "Proximal Thigh (PT)",
+    sample_side: "Left",
+    x: 140,
+    y: 310,
+  },
+  {
+    sample_area: "Proximal Thigh (PT)",
+    sample_side: "Right",
+    x: 210,
+    y: 310,
+  },
+  {
+    sample_area: "Distal Thigh (DT)",
+    sample_side: "Left",
+    x: 145,
+    y: 355,
+  },
+  {
+    sample_area: "Distal Thigh (DT)",
+    sample_side: "Right",
+    x: 200,
+    y: 355,
+  },
+  { sample_area: "Calf (C)", sample_side: "Left", x: 145, y: 410 },
+  { sample_area: "Calf (C)", sample_side: "Right", x: 200, y: 410 },
+  { sample_area: "Ankle (A)", sample_side: "Left", x: 150, y: 455 },
+  { sample_area: "Ankle (A)", sample_side: "Right", x: 200, y: 455 },
+  { sample_area: "Foot (F)", sample_side: "Left", x: 150, y: 520 },
+  { sample_area: "Foot (F)", sample_side: "Right", x: 190, y: 520 },
+];

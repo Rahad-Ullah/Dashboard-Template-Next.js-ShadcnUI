@@ -1,0 +1,17 @@
+export const profileData = {
+  _id: "67d7d45fec79ee47e7f9c676",
+  firstname: "Rahad",
+  lastname: "Ullah",
+  role: "Admin",
+  email: "rahadullah10@gmail.com",
+  phone: "1234567890",
+  image: "https://tinyurl.com/47njz2vv",
+  status: "active",
+  isLocked: false,
+  verified: true,
+  createdAt: "2025-03-17T07:50:55.572Z",
+  updatedAt: "2025-04-21T08:34:13.002Z",
+  id: 1000,
+  name: "Rahad Ullah",
+  address: "Dhaka, Bangladesh",
+};
